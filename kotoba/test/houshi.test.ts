@@ -6,7 +6,7 @@ describe("houshi kotoba", () => {
   let e: any;
 
   beforeEach(() => {
-    e = new MockEtzhayyim({ did: "did:web:houshi.etzhayyim.com" });
+    e = new MockEtzhayyim({ did: "did:web:houshi.itonami.app" });
   });
 
   describe("storeSpore", () => {

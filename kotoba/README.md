@@ -27,9 +27,9 @@ All three procedures use the same Option B `e.write()` and `e.read()` API patter
 ## Authority-chain DIDs
 
 ```
-did:web:houshi.etzhayyim.com                         — controller
-did:web:houshi.etzhayyim.com:spore:{sporeId-slug}   — SporeRecord
-did:web:houshi.etzhayyim.com:germinate:{sporeId}    — GerminateRecord
+did:web:houshi.itonami.app                         — controller
+did:web:houshi.itonami.app:spore:{sporeId-slug}   — SporeRecord
+did:web:houshi.itonami.app:germinate:{sporeId}    — GerminateRecord
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ import { Etzhayyim } from "@etzhayyim/sdk";
 import { storeSpore, listSpores, germinate } from "@etzhayyim/houshi-kotoba";
 
 const e = new Etzhayyim({
-  did: "did:web:houshi.etzhayyim.com",
+  did: "did:web:houshi.itonami.app",
   pdsUrl: "https://pds.etzhayyim.com",
   l2RpcUrl: "https://mainnet.base.org",
 });

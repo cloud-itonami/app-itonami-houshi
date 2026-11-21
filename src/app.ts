@@ -1,4 +1,4 @@
-// houshi.etzhayyim.com — sporulation custody layer (houshi = 胞子)
+// houshi.itonami.app — sporulation custody layer (houshi = 胞子)
 // Thin-edge dispatcher: business logic in AgentGateway MCP + pod-side LangServer.
 // 3 methods: storeSpore / germinate / listSpores
 
@@ -11,7 +11,7 @@ interface Env {
 interface ExportedHandler<E> { fetch(req: Request, env: E): Promise<Response>; }
 
 const NSID_PREFIX = "com.etzhayyim.houshi.";
-const ACTOR_DID = "did:web:houshi.etzhayyim.com";
+const ACTOR_DID = "did:web:houshi.itonami.app";
 
 export default {
   async fetch(req: Request, env: Env): Promise<Response> {

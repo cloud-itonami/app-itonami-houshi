@@ -150,10 +150,10 @@
         actor-host (str/replace (:actor-did @dispatcher) #"^did:web:" "")]
     (is (contains? patterns (str actor-host "/*"))
         (str "wrangler routes が actor DID のホスト " actor-host " を配信していない — did:web の解決先に worker が居ない"))
-    (is (contains? patterns (str (:nanoid @kotodama) ".etzhayyim.com/*"))
+    (is (contains? patterns (str (:nanoid @kotodama) ".itonami.app/*"))
         "nanoid ホスト（kotodama fleet の一律 addressing）が routes に無い")
     (doseq [r (:routes @wrangler)]
-      (is (= "etzhayyim.com" (:zone_name r))))))
+      (is (= "itonami.app" (:zone_name r))))))
 
 (deftest read-methods-are-get-and-write-methods-are-post
   ;; lexicon の意味論: listSpores は query（副作用なし・GET）、storeSpore /
