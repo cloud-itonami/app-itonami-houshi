@@ -34,7 +34,7 @@ curl -X POST http://localhost:8787/xrpc/com.etzhayyim.houshi.storeSpore \
 
 ```bash
 wrangler deploy
-# Deploys to houshi.etzhayyim.com/xrpc/*
+# Deploys to houshi.itonami.app/xrpc/*
 ```
 
 See ADR-2605210000 for design context.

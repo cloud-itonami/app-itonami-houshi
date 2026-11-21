@@ -25,12 +25,12 @@
   ],
   "routes": [
     {
-      "pattern": "h0ush001.etzhayyim.com/*",
-      "zone_name": "etzhayyim.com"
+      "pattern": "h0ush001.itonami.app/*",
+      "zone_name": "itonami.app"
     },
     {
-      "pattern": "houshi.etzhayyim.com/*",
-      "zone_name": "etzhayyim.com"
+      "pattern": "houshi.itonami.app/*",
+      "zone_name": "itonami.app"
     }
   ],
   "assets": {

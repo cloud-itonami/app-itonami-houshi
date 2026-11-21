@@ -72,14 +72,15 @@
 ;; served /xrpc/* from the SvelteKit worker this migration deleted, so once
 ;; wrangler.jsonc's `main` key was dropped nothing served that path. houshi
 ;; is different: `xrpc-adapter/wrangler.jsonc` declares a SEPARATE Worker
-;; ("houshi-xrpc-adapter") whose route `houshi.etzhayyim.com/xrpc/*` is more
-;; specific than this surface's `houshi.etzhayyim.com/*`, so XRPC is served
+;; ("houshi-xrpc-adapter") whose route `houshi.itonami.app/xrpc/*` is more
+;; specific than this surface's `houshi.itonami.app/*`, so XRPC is served
 ;; independently of anything this config does.
 ;;
 ;; That is a claim about the declared configuration. Whether the adapter is
-;; currently deployed is UNMEASURED: houshi.etzhayyim.com did not resolve
-;; when checked on 2026-09-07, and a name that does not resolve is not
-;; evidence either way.
+;; currently deployed is UNMEASURED: the host (then under etzhayyim.com) did not
+;; resolve when checked on 2026-09-07. Since the move to houshi.itonami.app on
+;; 2026-11-21 the name resolves through the zone's wildcard record and answers
+;; 522, which is not evidence either way.
 
 (def default-db
   {:title "Ai etzhayyim Project Houshi"

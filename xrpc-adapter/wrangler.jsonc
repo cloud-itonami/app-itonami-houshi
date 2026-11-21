@@ -7,14 +7,14 @@
   "account_id": "4da88288dc30d9ee257f319d3c33ecf0",
   "workers_dev": false,
   "vars": {
-    "ACTOR_DID": "did:web:houshi.etzhayyim.com",
+    "ACTOR_DID": "did:web:houshi.itonami.app",
     "PDS_URL": "https://pds.etzhayyim.com",
     "L2_RPC_URL": "https://mainnet.base.org"
   },
   "routes": [
     {
-      "pattern": "houshi.etzhayyim.com/xrpc/*",
-      "zone_name": "etzhayyim.com"
+      "pattern": "houshi.itonami.app/xrpc/*",
+      "zone_name": "itonami.app"
     }
   ],
   "observability": {

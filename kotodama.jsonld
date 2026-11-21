@@ -1,6 +1,6 @@
 {
   "@context": "https://etzhayyim.com/ns/kotodama/v1",
-  "@id": "did:web:houshi.etzhayyim.com",
+  "@id": "did:web:houshi.itonami.app",
   "name": "houshi",
   "nanoid": "h0ush001",
   "project": "houshi",

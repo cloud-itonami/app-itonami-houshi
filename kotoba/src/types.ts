@@ -11,12 +11,12 @@
  *   germinate   → GerminateRecord (revive dormant spore → kobo agent)
  *
  * Identity hierarchy:
- *   did:web:houshi.etzhayyim.com                       — controller
- *   did:web:houshi.etzhayyim.com:spore:{sporeId}       — SporeRecord
- *   did:web:houshi.etzhayyim.com:germinate:{sporeId}   — GerminateRecord
+ *   did:web:houshi.itonami.app                       — controller
+ *   did:web:houshi.itonami.app:spore:{sporeId}       — SporeRecord
+ *   did:web:houshi.itonami.app:germinate:{sporeId}   — GerminateRecord
  */
 
-export const HOUSHI_DID_PREFIX = "did:web:houshi.etzhayyim.com:" as const;
+export const HOUSHI_DID_PREFIX = "did:web:houshi.itonami.app:" as const;
 
 // ─── Spore storage tier ─────────────────────────────────────────────────
 
